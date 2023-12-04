@@ -145,7 +145,7 @@ watch(isSendingUserMessage, async () => {
         :when="isChatOpened"
         class="v-collapse"
       >
-        <div class="w-[22rem] h-[32.5rem] flex flex-col rounded-lg overflow-hidden shadow-2xl z-10">
+        <div class="w-[20rem] sm:w-[22rem] h-[32.5rem] flex flex-col rounded-lg overflow-hidden shadow-2xl z-10">
           <header class="w-full h-fit bg-purple-800 text-white px-4 py-2 border-b-2 border-white flex flex-row justify-between items-center">
             <h1 class="text-xl">
               Chat Widget
@@ -170,7 +170,7 @@ watch(isSendingUserMessage, async () => {
                 🤖
               </div>
               <div
-                class="max-w-[12.5rem] break-words flex-wrap text-white rounded-lg p-2"
+                class="max-w-[12.5rem] break-words flex-wrap rounded-lg p-2"
                 :class="{ 'bg-purple-100 text-black ml-auto rounded-br-none': !message.isBot,
                           'bg-purple-800 text-white mr-auto rounded-bl-none': message.isBot }"
               >
@@ -213,7 +213,7 @@ watch(isSendingUserMessage, async () => {
               class="flex flex-row space-x-2 items-end"
             >
               <div
-                class="text-white rounded-lg p-2 bg-purple-100 ml-auto"
+                class="text-black rounded-lg p-2 bg-purple-100 ml-auto"
               >
                 <span class="dot bg-stone-900" />
                 <span class="dot bg-stone-900" />
