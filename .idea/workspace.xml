@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f441e4b2-46dc-4a0c-939b-3395460fd3fa" name="Changes" comment="fix: clear branch" />
+    <list default="true" id="f441e4b2-46dc-4a0c-939b-3395460fd3fa" name="Changes" comment="fix: add dist" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="gh-pages" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,12 +37,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "gh-pages",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "pnpm",
-    "ts.external.directory.path": "/Users/novikovapolina/WebstormProjects/chat-bot-app/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Users/novikovapolina/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/232.9559.58/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -81,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701648849911</updated>
       <workItem from="1701648850714" duration="3782000" />
-      <workItem from="1701684237164" duration="308000" />
+      <workItem from="1701684237164" duration="755000" />
     </task>
     <task id="LOCAL-00001" summary="fix: delete dist">
       <option name="closed" value="true" />
@@ -139,7 +139,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701684008272</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix: clear dist">
+      <option name="closed" value="true" />
+      <created>1701684906839</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701684906839</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix: add dist">
+      <option name="closed" value="true" />
+      <created>1701685005282</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701685005282</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +176,8 @@
     <MESSAGE value="fix: delete dist" />
     <MESSAGE value="fix: deploy" />
     <MESSAGE value="fix: clear branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: clear branch" />
+    <MESSAGE value="fix: clear dist" />
+    <MESSAGE value="fix: add dist" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: add dist" />
   </component>
 </project>
